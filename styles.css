@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  background-color: rgb(205, 205, 205);
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+.botones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  max-width: 500px;
+  margin: auto;
+  background-color: aliceblue;
+  text-decoration: none;
+}
+
+.boton {
+  display: block;
+  width: 200px;
+  font-family: "Times New Roman", Times, serif;
+  margin: 10px;
+  padding: 7px 30px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  border-style: groove;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mostrar {
+  display: block;
+  width: 200px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: inherit;
+}
+
+.form-cargar {
+  width: 95%;
+  max-width: 500px;
+  margin: auto;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+.contenedor {
+  padding: 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.input-100 {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 15px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.input-50 {
+  width: 40%;
+  margin-bottom: 15px;
+  padding: 15px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.bot-carg {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
